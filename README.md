@@ -1,3 +1,4 @@
+
 # 🚀 Tellica - Votre Projet WordPress Ultime
 
 Bienvenue sur **Tellica**, un projet WordPress qui facilite la gestion de votre site avec puissance et flexibilité ! 🎉
@@ -15,21 +16,33 @@ Avant d'installer **Tellica**, assurez-vous d'avoir :
 ## 📥 Installation
 
 1. **Clonez le projet** 📂
-   
+
+   Pour récupérer le projet, clonez-le depuis le dépôt GitHub :
+
    ```bash
    git clone https://github.com/votre-repo/tellica.git
    ```
 
 2. **Accédez au dossier** 📁
-   
+
+   Une fois le projet cloné, allez dans le répertoire du projet :
+
    ```bash
    cd tellica
    ```
 
-3. **Importez la sauvegarde WPvivid** 🛠️
-   
+3. **Zippez le dossier actuel** 🗜️
+
+   Avant de créer une sauvegarde avec WPvivid, vous devez zipper le dossier du projet pour pouvoir l'importer dans le plugin :
+
+   ```bash
+   zip -r tellica-backup.zip .
+   ```
+
+4. **Importez la sauvegarde WPvivid** 🛠️
+
    - Allez dans `WPvivid Backup Plugin` sur votre tableau de bord WordPress.
-   - Importez le fichier de sauvegarde fourni.
+   - Importez le fichier `tellica-backup.zip` que vous avez créé à l'étape précédente.
    - Restaurez la sauvegarde et profitez de votre site ! 🎊
 
 ## 🌟 Fonctionnalités
@@ -58,4 +71,3 @@ Ce projet est sous licence **MIT**. 📄
 ---
 
 💡 **Tellica** - Simplifiez la gestion de votre site WordPress avec style et performance ! ✨
-
